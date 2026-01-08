@@ -88,13 +88,6 @@ This milestone provides a simple User Interface (UI) allowing users to upload an
     Open your web browser and navigate to:
     [http://localhost:5000](http://localhost:5000)
 
-### Running Locally
-
-If you prefer to run the Flask app directly in a Python environment:
-1.  Navigate to `milestone3/docker-app`.
-2.  Install dependencies: `pip install -r requirements.txt`.
-3.  Run the server: `python app.py`.
-
 ## Model Training
 
 If you wish to retrain the final model from scratch using the full dataset:
