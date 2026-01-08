@@ -4,10 +4,12 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Install system dependencies needed for OpenCV
-# even headless version needs some base libraries
 RUN apt-get update && apt-get install -y \
     libgl1-mesa-glx \
     libglib2.0-0 \
+    build-essential \
+    pkg-config \
+    libhdf5-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies
